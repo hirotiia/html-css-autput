@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS初級編総復習</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>テキストのスタイル変更で学んだこと</h1>
+            <p class="text-s">2018年10月16日</p>
+
+            <div class="content">
+                <h2>テキストの大きさを変更する</h2>
+                <hr>
+                <p>テキストの大きさを変更するには<span class="red">font-size</span>プロパティを使います。font-sizeの使い方は次の通りです。</p>
+                <p class="text-b">p {font-size:12px;}</p>
+                <p>上記の例では『px』を使いましたが、そのほかにも『%』『em』『rem』など様々な単位を利用することができます。</p>
+            </div>
+
+            <div class="content">
+                <h2>テキストの太さを変更する</h2>
+                <hr>
+                <p>テキストの太さを変更するには<span  class="red">font-weight</span>プロパティを使います。font-weightの使い方は次の通りです。</p>
+                <p class="text-b">p {font-weight:bold;}</p>
+                <p>上記の例では『bold』を使いましたが、そのほかにも『normal』『weight』『bolder』『数値指定』など様々な単位を利用することができます。</p>
+            </div>
+
+            <div class="content">
+                <h2>参考記事</h2>
+                <hr>
+                <ul>
+                    <li><a href="#">CSSでテキストのスタイルを変更するパート１</a></li>
+                    <li><a href="#">CSSでテキストのスタイルを変更するパート２</a></li>
+                </ul>
+                <div class="dot"></div>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <h1>flexboxで学んだこと</h1>
+            <p class="text-s">2018年10月17日</p>
+
+            <div class="content">
+                <h2>flexbox</h2>
+                <hr>
+                <p><span  class="red">flex-box</span>とは、<span  class="red">フレックスコンテナー</span>と<span  class="red">フレックスアイテム</span>を使って
+                表示要素を横並び、縦並び、表示順番を逆にすることが可能になる昨日のことである。</p>
+                <p>フレックスコンテナーとはフレックスアイテムを格納するコンテナーのことで、フレックスコンテナーにしたい要素のスタイル定義に以下のように<span  class="red">『display: flex;』</span>をセットすることで利用できる。</p>
+                <p class="text-b">div {display: flex;}</p>
+                <p>フレックスアイテムとはフレックスコンテナーに格納された実際に実際に表示される要素になる。</p>
+            </div>
+
+            <div class="content">
+                <h2>flexboxを使った実例を確認する</h2>
+                <hr>
+                <p>flexboxを使ったサンプルは『<a href="#">【エクササイズ】CSSのflexboxを使ってイメージギャラリーを作る』の『課題レポジトリ』から確認できる</a>』</p>
+            </div>
+
+            <div class="content">
+                <h2>参考記事</h2>
+                <hr>
+                <ul>
+                    <li><a href="#">CSSのflexboxの使い方を覚える</a></li>
+                    <li><a href="#">【エクササイズ】CSSのflexboxを使ってイメージギャラリーを作る</a></li>
+                </ul>
+                <div class="dot"></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
